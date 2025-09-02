@@ -14,23 +14,49 @@
   <link rel="stylesheet" href="style.css">
   
   <style type="text/css" media="all"> 
-  body{
+  body {
     background: #f4f6f9;
   }
   .container{
-    width: 400px;
+    width: 80%;
     margin: auto;
     background: #FFFFFF;
     padding:20px;
     border-radius:10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
   }
+  h2 {
+    text-align: center;
+  }
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  input,select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
   </style>
 </head>
 
 <body>
  <div class="container">
-   sesuatu
+  <h2>Pendaftaran Study Tour</h2>
+  <form action="" method="get" accept-charset="utf-8">
+    <label for="">Nama Siswa:</label>
+    <input type="text" name="nama" id="">
+    
+    <label for="">Kelas:</label>
+    <select name="Kelas" id="">
+      <option value="">X RPL</option>
+      <option value="">XI RPL</option>
+      <option value="">XII RPL</option>
+    </select>
+  </form>
  </div>
 </body>
 </html>
